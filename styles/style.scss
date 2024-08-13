@@ -1,0 +1,60 @@
+.page {
+  &__content {
+    margin: 0;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  &__wrap {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+}
+
+.header {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  height: fit-content;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon {
+    display: flex;
+  }
+
+  &__text {
+    display: flex;
+  }
+}
+
+.nav {
+  height: fit-content;
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 36px;
+
+    list-style: none;
+  }
+
+  &__link {
+
+
+    text-decoration: none;
+  }
+}

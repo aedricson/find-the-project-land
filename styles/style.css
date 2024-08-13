@@ -1,0 +1,48 @@
+.page__content {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.page__wrap {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: fit-content;
+}
+.logo__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo__icon {
+  display: flex;
+}
+.logo__text {
+  display: flex;
+}
+
+.nav {
+  height: fit-content;
+}
+.nav__menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 36px;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
