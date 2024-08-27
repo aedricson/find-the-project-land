@@ -4,21 +4,28 @@
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
+  color: #292e3d;
 }
 .page__wrap {
   margin: 0 auto;
   max-width: 1024px;
 }
 
+.header {
+  height: 100vh;
+}
 .header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.logo {
-  height: fit-content;
+.header__bottom {
+  height: 100%;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 .logo__link {
   display: flex;
   align-items: center;
@@ -31,9 +38,6 @@
   display: flex;
 }
 
-.nav {
-  height: fit-content;
-}
 .nav__menu {
   margin: 0;
   padding: 0;
@@ -42,6 +46,10 @@
   list-style: none;
 }
 .nav__link {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  color: inherit;
   text-decoration: none;
 }
 
